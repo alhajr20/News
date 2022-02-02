@@ -33,9 +33,13 @@
     }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
 
     .news__wrapper {
         justify-content: center;
+    }
+
+    .news__title {
+        font-size: 38px;
     }
 }

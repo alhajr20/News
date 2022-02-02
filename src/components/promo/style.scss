@@ -11,3 +11,14 @@
     font-size: 60px;
     color: #323232;
 }
+
+@media screen and (max-width: 767px) {
+
+    .promo__info {
+        padding: 50px 0;
+    }
+
+    .promo__title {
+        font-size: 46px;
+    }
+}
