@@ -1,0 +1,26 @@
+.add-new {
+    max-width: 500px;
+    margin-top: 50px;
+
+    h2 {
+        margin-bottom: 20px;
+    }
+}
+
+.an__input {
+    width: 100%;
+    margin-bottom: 20px;
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 12px 32px;
+        border: 2px solid #ffc22d;
+        border-radius: 3px;
+        font-family: 'Spline Sans', sans-serif;
+
+        &::placeholder {
+            font-family: 'Spline Sans', sans-serif;
+        }
+    }
+}

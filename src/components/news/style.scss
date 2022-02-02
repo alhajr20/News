@@ -1,0 +1,41 @@
+.news {
+    padding-bottom: 50px;
+}
+
+.news__title {
+    text-align: center;
+    font-size: 42px;
+    color: #323232;
+    padding: 50px 0 20px 0;
+}
+
+.news__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.news__search {
+    margin-bottom: 30px;
+}
+
+.news__input {
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 1px solid #6a6a6a;
+    background: #fff;
+    font-size: 16px;
+
+    &::placeholder {
+        font-size: 16px;
+        color: #6a6a6a;
+    }
+}
+
+@media screen and (max-width: 769px) {
+
+    .news__wrapper {
+        justify-content: center;
+    }
+}
